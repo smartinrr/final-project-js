@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	
+</head>
+<body onload = "setClasses()">
+    <div id = "image">
+		Hover over an image below to display here.
+	</div>
+    <div class="flex">
+            <img class = "preview" src="images/animals.JPG" alt="Group of flamingos" onmouseover = "upDate(this)" onmouseout = "unDo(this)" >
+            <img class = "preview" src="images/beach3.JPG" alt="Calm sea with rocks along the coast" onmouseover = "upDate(this)" onmouseout = "unDo(this)">
+            <img class = "preview" src="images/mexico.JPG" alt="Stone Aztec calendar surrounded by tropical plants" onmouseover = "upDate(this)" onmouseout = "unDo(this)">
+            <img class = "preview" src="images/three.JPG" alt="Sunset shining through dense trees in a forest" onmouseover = "upDate(this)" onmouseout = "unDo(this)">
+            <img class = "preview" src="images/street2.JPG" alt="Street at a Mexican fair with colorful stalls." onmouseover = "upDate(this)" onmouseout = "unDo(this)" >
+            <img class = "preview" src="images/rainbow.JPG" alt="Fountain with a bright rainbow in the background." onmouseover = "upDate(this)" onmouseout = "unDo(this)">
+        </div>
+	
+    <script src = "js/gallery.js"></script>
+</body>
+</html>
